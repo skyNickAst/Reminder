@@ -58,11 +58,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Reminders" id="xlt-16-pel">
-                        <barButtonItem key="leftBarButtonItem" title="Run" id="Pwb-uc-tW2">
-                            <connections>
-                                <action selector="didTapRun" destination="BYZ-38-t0r" id="nR5-Y7-YfY"/>
-                            </connections>
-                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="vYG-XL-ZJx">
                             <connections>
                                 <action selector="didTapAdd" destination="BYZ-38-t0r" id="haQ-CV-xfk"/>
@@ -91,7 +86,7 @@
                                     <constraint firstAttribute="height" constant="52" id="678-Gv-Qjm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="next"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter reminder text..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T18-qg-Zhx">
                                 <rect key="frame" x="16" y="131" width="361" height="52"/>
@@ -99,7 +94,7 @@
                                     <constraint firstAttribute="height" constant="52" id="fHY-me-SPM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="next"/>
                             </textField>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="OPI-Vv-X4d">
                                 <rect key="frame" x="16" y="233" width="361" height="585"/>
